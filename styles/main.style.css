@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00a2e8;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner1 {
+  width: 100%;
+}
+
+nav {
+  background-color: antiquewhite;
+  margin-top: 8px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.nav-link {
+  text-align: center;
+  font-size: 30px;
+  padding: 24px;
+  width: 25%;
+  border-left: 4px solid black;
+}
+
+.first-link {
+  border-left: 0px;
+}
+
+.nav-link:link {
+  color: #00a2e8;
+  text-decoration: none;
+}
+
+.nav-link:visited {
+  color: #00a2e8;
+}
+
+.nav-link:hover {
+  color: orangered;
+  font-weight: bold;
+}
+
+.nav-link:active {
+  font-style: italic;
+}
+
+main {
+  margin-top: 16px;
+  padding-bottom: 16px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+article p {
+  text-indent: 24px;
+  font-size: 24px;
+  display: inline-block;
+  margin: 16px 32px;
+  line-height: 48px;
+}
+
+.button-container {
+  display: flex;
+  margin: 0px 24px;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.form-btn {
+  cursor: pointer;
+  height: 40px;
+  font-size: 24px;
+  width: 100%;
+  background-color: blue;
+  color: white;
+}
+
+.contact-form-btn:hover {
+  color: orangered;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  font-size: 20px;
+  margin: 32px 0px;
+  padding: 24px;
+  font-style: italic;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
